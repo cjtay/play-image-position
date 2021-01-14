@@ -1,0 +1,33 @@
+body {
+    background-color: darkgray;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    background-color: white;
+    /* height: 940px; */
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+    margin: 10px 0;
+}
+
+.adjust {
+    /* object-fit: scale-down; */
+    object-fit: cover;
+    /* object-fit: contain; */
+    /* object-fit: fill; */
+
+    /* object-position: top; */
+    /* object-position: bottom; */
+    /* object-position: 100px 100px; */
+}
